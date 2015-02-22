@@ -1,0 +1,124 @@
+Delivered-To: zonekhulna@gmail.com
+Received: by 10.112.150.130 with SMTP id ui2csp1513642lbb;
+        Wed, 17 Dec 2014 06:00:47 -0800 (PST)
+X-Received: by 10.66.158.66 with SMTP id ws2mr38890879pab.145.1418824846066;
+        Wed, 17 Dec 2014 06:00:46 -0800 (PST)
+Return-Path: <noreply-8a1d9b9@plus.google.com>
+Received: from mail-pd0-x247.google.com (mail-pd0-x247.google.com. [2607:f8b0:400e:c02::247])
+        by mx.google.com with ESMTPS id qa8si2112448pbb.201.2014.12.17.06.00.44
+        for <zonekhulna@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 17 Dec 2014 06:00:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply-8a1d9b9@plus.google.com designates 2607:f8b0:400e:c02::247 as permitted sender) client-ip=2607:f8b0:400e:c02::247;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply-8a1d9b9@plus.google.com designates 2607:f8b0:400e:c02::247 as permitted sender) smtp.mail=noreply-8a1d9b9@plus.google.com;
+       dkim=pass header.i=@plus.google.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=plus.google.com
+Received: by mail-pd0-x247.google.com with SMTP id ft15so82496540pdb.6
+        for <zonekhulna@gmail.com>; Wed, 17 Dec 2014 06:00:44 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=plus.google.com; s=20120806;
+        h=mime-version:reply-to:list-unsubscribe:precedence:date:message-id
+         :subject:from:to:content-type;
+        bh=tQYZubwRu7prVqhz6/KjOoz0ZibMxjDWS6t5ox1DEh4=;
+        b=N1O2unohucqDeqfsnmcl1V9n2k7SIRhoImMffKQD45dfKutY8FDGJfX2lG5u37qljK
+         3KoSKozZbs21YOPbqW6JY2ukdYMWXINTVMsIIxgsdaD5p9lsA5bA3iVVLnryCkwsnG8w
+         zCv/0ULSBx03pdO3+F8oP5Y7/TjOIdeMlMVr7++lA5/dXBbyH5LZFv2OnwlYErmZZ+u4
+         97VeiVl73Eu/CAuajSpTmhwUhKzrJAXgYC8Vbb9tl1Qv6Lm/7f4XdDJ38Tunpn+Kb450
+         Nqnr0qYYVQbgAPb3ezAT7GK6Z+l1pIsj7KSnempi+PqhWHiIyWfM4/VeO1xYNGWacnWS
+         /7Rg==
+MIME-Version: 1.0
+X-Received: by 10.70.96.132 with SMTP id ds4mr7382458pdb.0.1418824844631; Wed,
+ 17 Dec 2014 06:00:44 -0800 (PST)
+X-Notifications: XEAAAAKNFkcW9f9NtcAt22x5ZU1Y
+X-Notification-ID: u:eece1c614e000000
+X-Notification-Category: ENGAGE
+X-Notification-Type: ENGAGE_FRIEND_SUGGESTIONS
+X-All-Senders-In-Circles: 1
+Reply-To: "Google+" <noreply-8a1d9b9@plus.google.com>
+X-UB: 37
+List-Unsubscribe: <https://plus.google.com/_/notifications/emlink?emr=04596970671672686172&emid=CLD38LaezcICFYj6NAodlxoABg&path=%2Fsettings%2Funsubscribe%3Fueat%3DAJ7SsMmHyGFEP8iZnIw6CszZX7Xjh9QgYx5FSz5PJmmFO6TXv8fZz_kJpUiWiafePJIAAtc2D40VgS-8YUfUNPaJETczoOky5Jl16kVqlCG9g0R_vobTx9tjRvCP9v37Q0YUE-jTTA0lCGBWp0O6XVNU3zWvP3GOnvlQzbhLOLPoYZZ-6b9N8ICCaI6PUejTHBKixib50jzn&dt=1418824844591&ub=37>
+Precedence: bulk
+Date: Wed, 17 Dec 2014 06:00:44 -0800 (PST)
+Message-ID: <1tMvnkC9Drp9u-vglJXaWA@notifications.google.com>
+Subject: ibbl khulna, do you know Zahidur Rahman?
+From: "Google+" <noreply-8a1d9b9@plus.google.com>
+To: zonekhulna@gmail.com
+Content-Type: multipart/alternative; boundary=001a11c24decdcdf51050a69e6a6
+
+--001a11c24decdcdf51050a69e6a6
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+People you may know on Google+
+
+Zahidur Rahman
+
+Add them:  
+https://plus.google.com/_/notifications/emlink?emr=04596970671672686172&emid=CLD38LaezcICFYj6NAodlxoABg&path=%2F104676631034647879462&dt=1418824844591&ub=37
+
+This notification was sent to zonekhulna@gmail.com; Don't want occasional  
+updates about Google+ activity and friend suggestions? Change what email  
+Google+ sends you here:  
+https://plus.google.com/_/notifications/emlink?emr=04596970671672686172&emid=CLD38LaezcICFYj6NAodlxoABg&path=%2Fsettings%2Fplus%3Fpromo%3Dre&dt=1418824844591&ub=37
+
+
+--001a11c24decdcdf51050a69e6a6
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><body style=3D"display:block;font-family:Arial;max-width:=
+600px;"><!-- X-Notifications: 1:eece1c614e000000 --><div style=3D"padding:1=
+0px 0;"><table style=3D"width:100%" cellpadding=3D"0" cellspacing=3D"0"><tr=
+><td><a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D045969=
+70671672686172&emid=3DCLD38LaezcICFYj6NAodlxoABg&path=3D%2Fstream&dt=3D1418=
+824844591&ub=3D37"><img src=3D"https://ssl.gstatic.com/s2/oz/images/notific=
+ations/logo/googleplus-greyscale-100x30-ccedb0dca792635de7635ab648f3336b.pn=
+g" style=3D"border:0" /></a></td><td style=3D"text-align:right"><a href=3D"=
+https://plus.google.com/_/notifications/emlink?emr=3D04596970671672686172&e=
+mid=3DCLD38LaezcICFYj6NAodlxoABg&path=3D%2Fcircles%2Ffind&dt=3D141882484459=
+1&ub=3D37" style=3D"background-color:#d44b38;border-radius:3px;color:#fff;d=
+isplay:inline-block;font-family: Arial;font-size:13px;height:30px;line-heig=
+ht:30px;min-width:54px;padding:1px 20px;text-align:center;text-decoration:n=
+one;white-space:nowrap;">See more suggestions</a></td></tr></table></div><d=
+iv style=3D"background-color:#4285f4;color:white;font:20px arial, normal;pa=
+dding:23px 20px">People you may know on Google+</div><div style=3D"backgrou=
+nd-color: #f5f5f5;margin-bottom: 15px;padding: 20px 30px 20px 30px"><div st=
+yle=3D"max-width:520px;"><div style=3D"background-color:white;border:1px so=
+lid #dadada;border-bottom-width:2px;border-top:none;-moz-border-radius:3px;=
+-webkit-border-radius:3px;"><div style=3D"padding:6px 0;width:100%"><table =
+style=3D"max-width:450px;margin:0 auto" cellpadding=3D"0" cellspacing=3D"0"=
+><tr><td style=3D"height:80px;padding:14px;text-align:right;vertical-align:=
+top;"><a href=3D"https://plus.google.com/_/notifications/emlink?emr=3D04596=
+970671672686172&emid=3DCLD38LaezcICFYj6NAodlxoABg&path=3D%2F104676631034647=
+879462&dt=3D1418824844591&ub=3D37"><img width=3D"80" height=3D"80" style=3D=
+"border:0;" src=3D"https://lh6.googleusercontent.com/-H0TAfmHuWPs/AAAAAAAAA=
+AI/AAAAAAAAAjk/30DSQPaxMFE/s75-c-k-a-no/photo.jpg" /></a></td><td style=3D"=
+padding:14px 12px;vertical-align:top;"><div style=3D"display:inline-block;m=
+ax-width:200px;min-width:200px;padding-right:12px;vertical-align:middle;"><=
+div style=3D"margin-top:5px;overflow:hidden;text-overflow:ellipsis;"><a hre=
+f=3D"https://plus.google.com/_/notifications/emlink?emr=3D04596970671672686=
+172&emid=3DCLD38LaezcICFYj6NAodlxoABg&path=3D%2F104676631034647879462&dt=3D=
+1418824844591&ub=3D37" style=3D"color: #262626;font: 16px arial, normal;tex=
+t-decoration: none;">Zahidur Rahman</a></div><div style=3D"color:#727272;fo=
+nt:12px arial, normal;margin:7px 0 5px;overflow:hidden;text-overflow: ellip=
+sis;"></div></div><div style=3D"display:inline-block;padding-top: 14px;vert=
+ical-align: middle;"><a href=3D"https://plus.google.com/_/notifications/eml=
+ink?emr=3D04596970671672686172&emid=3DCLD38LaezcICFYj6NAodlxoABg&path=3D%2F=
+circles%2Ffind&dt=3D1418824844591&ub=3D37" style=3D"background-color:#f5f5f=
+5;border:solid 1px #dfdfdf;border-radius:3px;-moz-border-radius: 3px;-webki=
+t-border-radius: 3px;color:#444;display:inline-block;font-family:Arial;font=
+-size:13px;font-weight:bold;height:34px;line-height:34px;min-width:54px;pad=
+ding:0 20px;text-align:center;text-decoration:none;white-space:nowrap;"rel=
+=3D"acb104676631034647879462">Add</a></div></td></tr></table></div></div></=
+div></div><div style=3D"font-size: 10px;color: gray;margin-bottom: 10px"><d=
+iv>This notification was sent to zonekhulna@gmail.com; Don't want occasiona=
+l updates about Google+ activity and friend suggestions? <a href=3D"https:/=
+/plus.google.com/_/notifications/emlink?emr=3D04596970671672686172&emid=3DC=
+LD38LaezcICFYj6NAodlxoABg&path=3D%2Fsettings%2Funsubscribe%3Fueat%3DAJ7SsMm=
+HyGFEP8iZnIw6CszZX7Xjh9QgYx5FSz5PJmmFO6TXv8fZz_kJpUiWiafePJIAAtc2D40VgS-8YU=
+fUNPaJETczoOky5Jl16kVqlCG9g0R_vobTx9tjRvCP9v37Q0YUE-jTTA0lCGBWp0O6XVNU3zWvP=
+3GOnvlQzbhLOLPoYZZ-6b9N8ICCaI6PUejTHBKixib50jzn&dt=3D1418824844591&ub=3D37"=
+ style=3D"color:#3366CC;text-decoration:none">Unsubscribe</a> from these em=
+ails.</div><div>Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 9404=
+3 USA</div></div></body></html>
+--001a11c24decdcdf51050a69e6a6--
