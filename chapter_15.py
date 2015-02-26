@@ -52,24 +52,24 @@
 #parser.feed(text)
 #parser.close()
 
-from urllib import urlopen
-from BeautifulSoup import BeautifulSoup
-
-text = urlopen('https://www.python.org/community/jobs/').read()
-soup = BeautifulSoup(text)
-
-
-def f(s):
-    return s.lower()
-
-
-jobs = set()
-for header in soup('h1'):
-    links = header('a', 'reference external')
-    if not links:
-        continue
-    link = links[0]
-    jobs.add('%s %s' % (link.string, link['href']))
-
-#print('\n'.join(sorted(jobs, key=f)))
-print('\n'.join(sorted(jobs, key=lambda s: s.lower())))
+#from urllib import urlopen
+#from BeautifulSoup import BeautifulSoup
+#
+#text = urlopen('https://www.python.org/community/jobs/').read()
+#soup = BeautifulSoup(text)
+#
+#
+#def f(s):
+#    return s.lower()
+#
+#
+#jobs = set()
+#for header in soup('h1'):
+#    links = header('a', 'reference external')
+#    if not links:
+#        continue
+#    link = links[0]
+#    jobs.add('%s %s' % (link.string, link['href']))
+#
+##print('\n'.join(sorted(jobs, key=f)))
+#print('\n'.join(sorted(jobs, key=lambda s: s.lower())))
