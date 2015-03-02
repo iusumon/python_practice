@@ -1,0 +1,93 @@
+import xlrd
+import os.path
+
+data_1 = {}
+input_file1 = raw_input("Enter Previous Excel File Name: ")
+if not input_file1:
+    exit()
+
+input_file1 = input_file1 + ".xls"
+wb = xlrd.open_workbook(os.path.join(input_file1))
+
+wb.sheet_names()
+sh = wb.sheet_by_index(0)
+output_file1 = open(input_file1[:-4] + ".txt", "w")
+
+
+def extract_data(sh, data, output_file):
+    pass
+
+i = 0
+tmp_acc_no, tmp_name, tmp_total = "", "", 0
+
+try:
+    while str(sh.cell(i, 1)).replace("text:u", "").replace("'", "").replace(" ", "") != "":
+        if str(sh.cell(i, 1)).replace("text:u", "").replace("'", "").replace(" ", "") == "CustomerName":
+            name_col = str(sh.cell(i, 4)).replace("empty:", "").replace("'", "").replace("text:u", "").replace(",", "")
+            if name_col.strip():
+                tmp_acc_no, tmp_name = name_col.split(":")
+#                print(tmp_name)
+        if str(sh.cell(i, 1)).replace("text:u", "").replace("'", "").replace(" ", "") == "CustomerTotal":
+            total_col = str(sh.cell(i, 8)).replace("empty:", "").replace("'", "").replace("text:u", "").replace(",", "")
+            if total_col.strip():
+                tmp_total = total_col
+#                print(total_col)
+                data_1[tmp_acc_no.strip()] = [tmp_name.strip(), tmp_total.strip()]
+                output_file1.write(tmp_acc_no.strip() + "," + tmp_name.strip() + "," + total_col + "\n")
+        i = i + 1
+except:
+    pass
+    #for x in data_1:
+    #    print(x)
+
+data_2 = {}
+input_file2 = raw_input("Enter Current Excel File Name: ")
+if not input_file2:
+    exit()
+input_file2 = input_file2 + ".xls"
+
+wb = xlrd.open_workbook(os.path.join(input_file2))
+
+wb.sheet_names()
+sh = wb.sheet_by_index(0)
+output_file2 = open(input_file2[:-4] + ".txt", "w")
+i = 0
+tmp_acc_no, tmp_name, tmp_total = "", "", 0
+
+try:
+    while str(sh.cell(i, 1)).replace("text:u", "").replace("'", "").replace(" ", "") != "":
+        if str(sh.cell(i, 1)).replace("text:u", "").replace("'", "").replace(" ", "") == "CustomerName":
+            name_col = str(sh.cell(i, 4)).replace("empty:", "").replace("'", "").replace("text:u", "").replace(",", "")
+            if name_col.strip():
+                tmp_acc_no, tmp_name = name_col.split(":")
+#                print(tmp_name)
+        if str(sh.cell(i, 1)).replace("text:u", "").replace("'", "").replace(" ", "") == "CustomerTotal":
+            total_col = str(sh.cell(i, 8)).replace("empty:", "").replace("'", "").replace("text:u", "").replace(",", "")
+            if total_col.strip():
+                tmp_total = total_col
+#                print(total_col)
+                data_2[tmp_acc_no.strip()] = [tmp_name.strip(), tmp_total.strip()]
+                output_file2.write(tmp_acc_no.strip() + "," + tmp_name.strip() + "," + total_col + "\n")
+        i = i + 1
+except:
+    pass
+    #for x in data_2:
+    #    print(x, data_2[x][0])
+
+output_file3 = open("combined_data.txt", "w")
+combined_data = {}
+for x in data_1:
+    if x in data_2:
+        #print(x, data_1[x][0], data_1[x][1], data_2[x][0], data_2[x][1])
+        combined_data[x] = [data_1[x][0], data_1[x][1], data_2[x][0], data_2[x][1]]
+    elif x not in data_2:
+        #pass
+        combined_data[x] = [data_1[x][0], data_1[x][1], '0', '0']
+
+for x in data_2:
+    if x not in data_1:
+        combined_data[x] = ['0', '0', data_2[x][0], data_2[x][1]]
+
+for i in combined_data:
+    output_file3.write(i + "," + combined_data[i][0] + "," + combined_data[i][1] + "," + combined_data[i][2] + "," + combined_data[i][3] + "\n")
+#    print(i, combined_data[i][0], combined_data[i][1], combined_data[i][2], combined_data[i][3])
