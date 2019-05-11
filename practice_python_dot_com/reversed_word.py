@@ -1,3 +1,7 @@
+'''
+Take a sentence and print out the sentence in reverse order
+Example Sentence: Bangladesh World Clock
+'''
 # Data Science, Machine Learning, Data Structure
 
 #Solution
@@ -20,6 +24,7 @@ def reverseChar(w):
 # print x
 
 #Solution
+
 def reverse_v1(x):
   y = x.split()
   result = []
@@ -27,6 +32,4 @@ def reverse_v1(x):
     result.insert(0, word)
   return " ".join(result)
 
-print reverse_v1("Bangladesh World clock")
-
-
+print(reverse_v1("Bangladesh World clock"))
